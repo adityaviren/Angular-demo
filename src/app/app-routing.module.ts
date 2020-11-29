@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { RadioComponent } from './component/radio/radio.component';
-
-
+import { EmployeeComponent } from './component/employee/employee.component';
+import { CreateEmployeeComponent } from './component/create-employee/create-employee.component';
 const routes: Routes = [
-  {path:'radio',component:RadioComponent}
+  { path:'employee',component:EmployeeComponent},
+  { path:'create',component:CreateEmployeeComponent}
+
 ];
 
 @NgModule({
